@@ -1,0 +1,21 @@
+.pro{
+    margin-top: 4%;
+}
+.main{
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+.box{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.box:hover{
+    background-color: limegreen;
+}
