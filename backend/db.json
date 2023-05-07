@@ -1,61 +1,72 @@
 {
-    "slots":[
-        {
-            "name":"Ish",
-            "1stTimeSlot":"10:00 AM to 11:00 AM",
-            "2stTimeSlot":"12:00 PM to 01:00 PM",
-            "3stTimeSlot":"02:00 PM to 03:00 PM",
-            "4stTimeSlot":"04:00 PM to 05:00 PM",
-            "id":1
-        },
-        {
-            "name":"Shiv",
-            "1stTimeSlot":"10:00 AM to 11:00 AM",
-            "2stTimeSlot":"12:00 PM to 01:00 PM",
-            "3stTimeSlot":"02:00 PM to 03:00 PM",
-            "4stTimeSlot":"04:00 PM to 05:00 PM",
-            "id":2
-        },
-        {
-            "name":"Shrav",
-            "1stTimeSlot":"10:00 AM to 11:00 AM",
-            "2stTimeSlot":"12:00 PM to 01:00 PM",
-            "3stTimeSlot":"02:00 PM to 03:00 PM",
-            "4stTimeSlot":"04:00 PM to 05:00 PM",
-            "id":3
-        },
-        {
-            "name":"Shanthi",
-            "1stTimeSlot":"10:00 AM to 11:00 AM",
-            "2stTimeSlot":"12:00 PM to 01:00 PM",
-            "3stTimeSlot":"02:00 PM to 03:00 PM",
-            "4stTimeSlot":"04:00 PM to 05:00 PM",
-            "id":4
-        },
-        {
-            "name":"Poo",
-            "1stTimeslot":"10:00 AM to 11:00 AM",
-            "2stTimeslot":"12:00 PM to 01:00 PM",
-            "3stTimeslot":"02:00 PM to 03:00 PM",
-            "4stTimeslot":"04:00 PM to 05:00 PM",
-            "id":5
-        }
-    ],
-    "singUp":[
+  "slots": [
     {
-        "name":"sakshi jadhav",
-        "gmail":"sakshi@gmail.com",
-        "password":"123",
-        "cpassword":"123",
-        "id":1
+      "name": "Ish",
+      "firstTimeSlot": "10:00 AM to 11:00 AM",
+      "secondTimeSlot": "12:00 PM to 01:00 PM",
+      "thirdTimeSlot": "02:00 PM to 03:00 PM",
+      "fourthTimeSlot": "04:00 PM to 05:00 PM",
+      "fifthTimeSlot": "06:00 PM to 07:00 PM ",
+      "id": 1
+    },
+    {
+      "name": "Shiv",
+      "firstTimeSlot": "10:00 AM to 11:00 AM",
+      "secondTimeSlot": "12:00 PM to 01:00 PM",
+      "thirdTimeSlot": "02:00 PM to 03:00 PM",
+      "fourthTimeSlot": "04:00 PM to 05:00 PM",
+      "fifthTimeSlot": "06:00 PM to 07:00 PM ",
+      "id": 2
+    },
+    {
+      "name": "Shrav",
+      "firstTimeSlot": "10:00 AM to 11:00 AM",
+      "secondTimeSlot": "12:00 PM to 01:00 PM",
+      "thirdTimeSlot": "02:00 PM to 03:00 PM",
+      "fourthTimeSlot": "04:00 PM to 05:00 PM",
+      "fifthTimeSlot": "06:00 PM to 07:00 PM ",
+      "id": 3
+    },
+    {
+      "name": "Shanthi",
+      "firstTimeSlot": "10:00 AM to 11:00 AM",
+      "secondTimeSlot": "12:00 PM to 01:00 PM",
+      "thirdTimeSlot": "02:00 PM to 03:00 PM",
+      "fourthTimeSlot": "04:00 PM to 05:00 PM",
+      "fifthTimeSlot": "06:00 PM to 07:00 PM ",
+      "id": 4
+    },
+    {
+      "name": "Poo",
+      "firstTimeSlot": "10:00 AM to 11:00 AM",
+      "secondTimeSlot": "12:00 PM to 01:00 PM",
+      "thirdTimeSlot": "02:00 PM to 03:00 PM",
+      "fourthTimeSlot": "04:00 PM to 05:00 PM",
+      "fifthTimeSlot": "06:00 PM to 07:00 PM ",
+      "id": 5
     }
-    ],
-    "Booked":[
-        {
-            "username":"",
-            "slotsName":"",
-            "slotsTime":""
-        }
-    ]
-
+  ],
+  "singUp": [
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 1
+    },
+    {
+      "name": "ani",
+      "email": "ani@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 2
+    }
+  ],
+  "booked": [
+    {
+      "username": "",
+      "slotsName": "",
+      "slotsTime": ""
+    }
+  ]
 }

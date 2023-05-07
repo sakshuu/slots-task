@@ -1,7 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { getSlotsAction } from '../redux/actions/SlotsActions'
 
 const SelectSlot = () => {
+  const dispatch = useDispatch()
+const { slot} = useSelector(state => state.allSlots)
+
+const [dataSlots, setDataSlots] = useState({})
+const [slotName, setSlotName] = useState({
+  name:""
+})
+
+const handleName = (item) => {
+  if (dataSlots(item.name) === slotName) {
+    return `<p>is avilable to show fllowing table slot</p>`
+  } else {
+    return `<p>is not</p>`
+  }
+}
+
+useEffect(() => {
+  dispatch(getSlotsAction())
+  setDataSlots(slot)
+}, [])
+
   return <>
+  {/* {JSON.stringify(dataSlots)} */}
+ 
     <div class="container pro">
         <div class="row">
           <div class="col-sm-6 offset-sm-3">
@@ -14,7 +39,9 @@ const SelectSlot = () => {
                     type="text"
                     class="form-control"
                     id="email"
-                    placeholder="Enter Your Email"
+                    placeholder="Enter name" onChange={e => {handleName()
+                    setDataSlots(item)
+                    }}
                   />
                   <div class="valid-feedback">Looks good!</div>
                   <div class="invalid-feedback">Please choose a username.</div>

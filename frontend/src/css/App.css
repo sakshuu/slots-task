@@ -13,9 +13,33 @@
 .box{
     text-align: center;
     padding: 10px;
-    border-radius: 10px;
     border: 1px solid black;
 }
 .box:hover{
     background-color: limegreen;
+    /* background-color: gray; */
+}
+#box-Selected{
+    padding: 10px;
+    background-color: limegreen;
+}
+#box-Available{
+    padding: 10px;
+    background-color: black;
+}
+#box-Booked{
+    padding: 10px;
+    background-color: gray;
+}
+
+.color-present{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: baseline;
+}
+.pro-bottom{
+    margin-top: 2%;
+    margin-bottom: 7%;
+
 }
